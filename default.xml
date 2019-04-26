@@ -34,12 +34,6 @@
   <project remote="gmv"         revision="master"       name="meta-intel-proprietary-msdk"     path="sources/intel/meta-intel-proprietary-msdk"/>
   <project remote="up-board"    revision="sumo"         name="meta-up-board"     path="sources/intel/meta-up-board"/>
 
-  <!--GMV-->
-  <project remote="gmv"         revision="sumo"        name="meta-ep100"                path="sources/gmv/meta-ep100"/>
-  <project remote="gmv"         revision="sumo"        name="meta-tv10"                 path="sources/gmv/meta-tv10"/>
-  <project remote="gmv"         revision="sumo"        name="meta-uc100"                path="sources/gmv/meta-uc100"/>
-  <project remote="gmv"         revision="sumo"        name="meta-deepsy"               path="sources/gmv/meta-deepsy"/>
-  <project remote="gmv"         revision="sumo"        name="meta-gmv"                  path="sources/gmv/meta-gmv">
         <linkfile src="setup-environment"               dest="setup-environment"/>
   </project>
 
