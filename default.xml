@@ -15,7 +15,4 @@
   <!--Freescale/NXP-->
   <project remote="freescale"   revision="sumo"         name="meta-freescale"           path="sources/freescale/meta-freescale"/>
 
-        <linkfile src="setup-environment"               dest="setup-environment"/>
-  </project>
-
 </manifest>
