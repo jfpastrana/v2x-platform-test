@@ -16,13 +16,14 @@
   <!--Freescale/NXP-->
   <project remote="freescale"   revision="sumo"         name="meta-freescale"           path="sources/freescale/meta-freescale"/>
   
-  
   <!--Solid Run-->
   <project remote="solidrun"   revision="sumo"         name="meta-solidrun-bsp"           path="sources/solidrun/meta-solidrun-bsp"/>
   
   <!--V2X / GCO-->
   <project remote="jfpastrana" revision="master"         name="meta-v2x-test"           path="sources/gco/meta-v2x-test"/>  
-    
-    <linkfile src="sources/gco/meta-v2x-test/setup-environment"               dest="setup-environment"/>
+  <project remote="jfpastrana" revision="master"         name="v2x-base-test"           path="sources/base">
+	  <linkfile dest="README" src="README"/>
+	  <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
 
 </manifest>
