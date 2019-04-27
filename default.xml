@@ -7,6 +7,7 @@
   <remote fetch="https://github.com/openembedded"                       name="oe"/>
   <remote fetch="https://github.com/Freescale"                          name="freescale"/>
   <remote fetch="https://github.com/SolidRun"                           name="solidrun"/>
+  <remote fetch="https://github.com/jfpastrana"                         name="jfpastrana"/>
 
   <!--Basic-->
   <project remote="yocto"       revision="sumo"         name="poky"                     path="sources/poky"/>
@@ -18,5 +19,8 @@
   
   <!--Solid Run-->
   <project remote="solidrun"   revision="sumo"         name="meta-solidrun-bsp"           path="sources/solidrun/meta-solidrun-bsp"/>
+  
+  <!--V2X / GCO-->
+  <project remote="jfpastrana" revision="master"         name="meta-v2x-test"           path="sources/gco/meta-v2x-test"/>
 
 </manifest>
