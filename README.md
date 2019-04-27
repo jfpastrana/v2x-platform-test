@@ -1,1 +1,0 @@
-# v2x-platform-test
