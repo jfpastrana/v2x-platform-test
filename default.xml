@@ -23,6 +23,6 @@
   <!--V2X / GCO-->
   <project remote="jfpastrana" revision="master"         name="meta-v2x-test"           path="sources/gco/meta-v2x-test"/>  
     
-    <linkfile src="setup-environment"               dest="setup-environment"/>
+    <linkfile src="sources/gco/meta-v2x-test/setup-environment"               dest="setup-environment"/>
 
 </manifest>
